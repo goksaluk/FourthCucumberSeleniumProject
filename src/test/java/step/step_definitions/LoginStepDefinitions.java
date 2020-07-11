@@ -1,9 +1,9 @@
-package odoo.step_definitions;
+package step.step_definitions;
 
-import odoo.pages.LoginPage;
-import odoo.utilities.BrowserUtils;
-import odoo.utilities.ConfigurationReader;
-import odoo.utilities.Driver;
+import step.pages.LoginPage;
+import step.utilities.BrowserUtils;
+import step.utilities.ConfigurationReader;
+import step.utilities.Driver;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 

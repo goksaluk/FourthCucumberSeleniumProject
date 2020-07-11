@@ -1,7 +1,7 @@
-package odoo.pages;
+package step.pages;
 
-import odoo.utilities.ConfigurationReader;
-import odoo.utilities.Driver;
+import step.utilities.ConfigurationReader;
+import step.utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -32,7 +32,7 @@ public class LoginPage extends BasePage{
 
     public void login(String userName, String password){
         userNameInput.sendKeys(userName);
-        //Keys.ENTER to replace login click
+
         passwordInput.sendKeys(password,Keys.ENTER);
 
     }

@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6032a5e-a4db-4e6f-9488-16bfdaba1b2b" name="Default Changelist" comment="" />
+    <list default="true" id="c6032a5e-a4db-4e6f-9488-16bfdaba1b2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/pages/CreateOpportunityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/pages/CreateOpportunityPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/pages/CrmPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/pages/CrmPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/pages/EventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/pages/EventsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/pages/PurchaseOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/pages/PurchaseOrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/runners/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/runners/CucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/runners/RunnerWithOutPurchaise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/runners/RunnerWithOutPurchaise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/step_definitions/ActivityTypesStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/step_definitions/ActivityTypesStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/step_definitions/CrmStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/step_definitions/CrmStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/step_definitions/EventsStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/step_definitions/EventsStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/step_definitions/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/step_definitions/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/step_definitions/KanbanKolumnsOnCrmStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/step_definitions/KanbanKolumnsOnCrmStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/step_definitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/step_definitions/LoginStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/step_definitions/PurchaseOrderStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/step_definitions/PurchaseOrderStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/odoo/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/utilities/Pages.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +69,12 @@
       <module name="OdooCucumberProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="odoo.runners.*" />
+          <option name="PATTERN" value="step.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="odoo.runners" />
-      <option name="MAIN_CLASS_NAME" value="odoo.runners.CucumberRunner" />
+      <option name="PACKAGE_NAME" value="step.runners" />
+      <option name="MAIN_CLASS_NAME" value="step.runners.CucumberRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594456203572</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Addedsome extra comments">
+      <created>1594460302713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594460302713</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

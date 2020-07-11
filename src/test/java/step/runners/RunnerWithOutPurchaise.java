@@ -1,4 +1,4 @@
-package odoo.runners;
+package step.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = "odoo/step_definitions",
+        glue = "step/step_definitions",
         dryRun = false,
         tags = "@CrmFeature,@EventsFeature",
         plugin = {"html:target/default-cucumber-reports",

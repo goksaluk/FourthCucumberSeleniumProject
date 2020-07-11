@@ -1,19 +1,16 @@
-package odoo.step_definitions;
+package step.step_definitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import odoo.utilities.BrowserUtils;
-import odoo.utilities.Driver;
-import odoo.utilities.Pages;
+import step.utilities.BrowserUtils;
+import step.utilities.Pages;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+
 import java.util.Map;
 
 public class CrmStepDefinitions {
-
 
     Pages page = new Pages();
 

@@ -1,9 +1,9 @@
-package odoo.utilities;
+package step.utilities;
 
-import odoo.pages.CreateOpportunityPage;
-import odoo.pages.CrmPage;
-import odoo.pages.EventsPage;
-import odoo.pages.LoginPage;
+import step.pages.CreateOpportunityPage;
+import step.pages.CrmPage;
+import step.pages.EventsPage;
+import step.pages.LoginPage;
 
 public class Pages {
 

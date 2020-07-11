@@ -1,11 +1,8 @@
-package odoo.step_definitions;
+package step.step_definitions;
 
 import io.cucumber.java.en.*;
-import odoo.pages.LoginPage;
-import odoo.pages.PurchaseOrderPage;
-import odoo.utilities.BrowserUtils;
-import odoo.utilities.ConfigurationReader;
-import odoo.utilities.Driver;
+import step.pages.PurchaseOrderPage;
+import step.utilities.Driver;
 import org.junit.Assert;
 
 public class PurchaseOrderStepDefinitions {

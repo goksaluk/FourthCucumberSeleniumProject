@@ -1,6 +1,6 @@
-package odoo.step_definitions;
+package step.step_definitions;
 
-import odoo.utilities.Driver;
+import step.utilities.Driver;
 import io.cucumber.core.api.Scenario;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;

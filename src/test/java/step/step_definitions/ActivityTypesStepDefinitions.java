@@ -1,17 +1,16 @@
-package odoo.step_definitions;
+package step.step_definitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import odoo.utilities.BrowserUtils;
-import odoo.utilities.Pages;
+import step.utilities.BrowserUtils;
+import step.utilities.Pages;
 import org.junit.Assert;
 
 import java.util.List;
-//
+
 
 public class ActivityTypesStepDefinitions {
-    //CrmPage crmPage = new CrmPage();
-    //steps
+
     Pages pages = new Pages();
 
     @Given("user able to navigate Activity Types page")

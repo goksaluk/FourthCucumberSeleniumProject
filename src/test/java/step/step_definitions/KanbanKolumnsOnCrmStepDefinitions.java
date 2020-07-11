@@ -1,11 +1,10 @@
-package odoo.step_definitions;
+package step.step_definitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import odoo.utilities.Pages;
+import step.utilities.Pages;
 import org.junit.Assert;
-import org.junit.rules.Verifier;
 
 import java.util.Map;
 

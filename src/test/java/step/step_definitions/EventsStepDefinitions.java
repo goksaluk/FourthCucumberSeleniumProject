@@ -1,8 +1,8 @@
-package odoo.step_definitions;
+package step.step_definitions;
 
 import io.cucumber.java.en.Then;
-import odoo.pages.EventsPage;
-import odoo.utilities.BrowserUtils;
+import step.pages.EventsPage;
+import step.utilities.BrowserUtils;
 import org.junit.Assert;
 
 public class EventsStepDefinitions {

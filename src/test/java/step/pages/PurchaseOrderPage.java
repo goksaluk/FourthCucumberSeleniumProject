@@ -1,14 +1,12 @@
-package odoo.pages;
+package step.pages;
 
-import odoo.utilities.BrowserUtils;
-import odoo.utilities.Driver;
+import step.utilities.BrowserUtils;
+import step.utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import java.nio.file.Watchable;
 
 
 public class PurchaseOrderPage extends BasePage {
@@ -57,10 +55,7 @@ public class PurchaseOrderPage extends BasePage {
      * @return page name, for example: Purchases
      */
 
-    /*public void navigateTo() {
-        Actions action = new Actions(Driver.get());
-        action.moveToElement(moduleLocator).click().perform();
-    }*/
+
     public String getPageSubTitle1() {
         //ant time we are verifying page name, or page subtitle=Requests for Quotation
         BrowserUtils.waitForPageTitle("Requests for Quotation - Odoo");

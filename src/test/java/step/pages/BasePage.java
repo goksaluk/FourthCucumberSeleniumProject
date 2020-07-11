@@ -1,16 +1,13 @@
-package odoo.pages;
+package step.pages;
 
-import odoo.utilities.BrowserUtils;
-import odoo.utilities.Driver;
+import step.utilities.BrowserUtils;
+import step.utilities.Driver;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
 
 public class BasePage {
     @FindBy(css = "[data-menu=\"68\"]")

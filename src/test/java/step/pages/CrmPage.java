@@ -1,9 +1,7 @@
-package odoo.pages;
+package step.pages;
 
-import odoo.utilities.BrowserUtils;
-import odoo.utilities.ConfigurationReader;
-import odoo.utilities.Driver;
-import odoo.utilities.Pages;
+import step.utilities.BrowserUtils;
+import step.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
