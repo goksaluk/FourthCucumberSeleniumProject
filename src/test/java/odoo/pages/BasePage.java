@@ -45,9 +45,7 @@ public class BasePage {
 
 
     public BasePage() {
-        //this method requires to provide webdriver object for @FindBy
-        //and page class
-        //this means this page class
+
         PageFactory.initElements(Driver.get(), this);
     }
 
@@ -55,7 +53,7 @@ public class BasePage {
      * @return page name, for example: Dashboard
      */
     public String getPageSubTitle(WebElement element) {
-        //ant time we are verifying page name, or page subtitle
+
         BrowserUtils.wait(2);
         BrowserUtils.waitForStaleElement(element);
 
@@ -63,7 +61,7 @@ public class BasePage {
     }
 
     public void waitForPageBlockage(){
-        // this method created for using for finish of the page blockage.
+
         // it targeted the text of style attribute in the blockage WebElement
         WebDriverWait wait = new WebDriverWait(Driver.get(), 30);
         wait.until(ExpectedConditions.attributeToBe(loaderMask,"style","display: none;"));
